@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="relative flex flex-col lg:flex-row min-h-screen min-w-screen justify-around p-10">
       
-      <div className="lg:order-2 lg:flex lg:items-center lg:justify-end lg:max-w-4xl lg:pr-10">
+      <div className="position: absolute top-1 right-1 pt-5 lg:items-center lg:justify-end lg:max-w-4xl lg:pr-10">
         <p className="flex justify-end border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-3 pt-5 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:w-full lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           <a 
           href="https://www.amazon.com/dp/B09PHCFNH8?binding=paperback&qid=1700102595&sr=1-1&ref=dbs_dp_rwt_sb_pc_tpbk"
@@ -22,7 +22,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="lg:order-3 grid gap-8 text-center lg:max-w-3xl lg:w-[200px] lg:mb-0 lg:grid-cols-1 lg:grid-rows-4 lg:text-left">
+      <div className="position: top-1 left-1 absolute grid text-center pt-5 lg:max-w-3xl lg:w-[200px] lg:mb-0 lg:grid-cols-1 lg:grid-rows-4 lg:text-left">
         <a
           href="/about"
           className="group rounded-lg border border-transparent px-3 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
