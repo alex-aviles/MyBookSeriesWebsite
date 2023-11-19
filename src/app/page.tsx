@@ -23,13 +23,13 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="lg:absolute lg:top-[3%] lg:left-[1%] grid lg:text-center lg:w-[12%] lg:grid-cols-1 lg:grid-rows-4 lg:text-left">
+      <div className="lg:absolute lg:top-[3%] lg:left-[1%] grid lg:text-left lg:w-[12%] lg:grid-cols-1 lg:grid-rows-4">
         <a
           href="/about"
-          className="group rounded-lg border border-transparent px-3 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-1 py-2 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`mb-3 text-[160%] font-semibold`}>
             About{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -42,26 +42,26 @@ export default function Home() {
 
         <Link
           href="/bookone"
-          className="group rounded-lg border border-transparent px-3 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-1 py-2 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`mb-3 text-[160%] font-semibold`}>
             Book One{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Genesis of Gleipnir&nbsp;
+            Genesis of Gleipnir
           </p>
         </Link>
 
         <Link
           href="/booktwo"
-          className="group rounded-lg border border-transparent px-3 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-1 py-2 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`mb-3 text-[160%] font-semibold`}>
             Book Two{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -74,10 +74,10 @@ export default function Home() {
 
         <Link
           href="/bookthree"
-          className="group rounded-lg border border-transparent px-3 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-1 py-2 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`mb-3 text-[160%] font-semibold`}>
             Book Three{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
