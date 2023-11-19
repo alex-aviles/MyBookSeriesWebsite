@@ -12,7 +12,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Buy Now&nbsp;
+            Buy Now&nbsp; {/*use sticky headers for buy now buttons*/}
           </a>
         </p>
       </div>
