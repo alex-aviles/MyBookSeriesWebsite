@@ -17,14 +17,14 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="justify-center mt-[15%]">
-        <h1 className="font-bold text-white text-[700%] leading-tight">
+      <div className="justify-center mt-[10%]">
+        <h1 className="font-bold text-white text-[200%] sm:text-[200%] md:text-[300%] lg:text-[500%] xl:text-[700%] leading-tight ">
           Chronicles{' '}<br></br>of{' '}Mieraud
         </h1>
       </div>
 
       <div className="absolute top-[3%] left-[1%] grid text-left w-[12%] grid-cols-1 grid-rows-4">
-        <a
+        <Link
           href="/about"
           className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
@@ -38,7 +38,7 @@ export default function Home() {
           <p className={`max-w-[90%] text-[90%] opacity-[50%]`}>
             Learn about me as the author of this series.
           </p>
-        </a>
+        </Link>
 
         <Link
           href="/bookone"
