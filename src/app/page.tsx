@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex h-screen w-screen justify-around">
+    <main className="flex flex-row h-screen w-screen justify-evenly">
       
-      <div className="absolute top-[3%] right-[1%] items-center pr-[1%]">
-        <p className="flex justify-center p-4 dark:bg-zinc-800/30">
+      <div className="absolute top-[3%] sm:right-[1%] md:top-[3%] md:right-[1%] lg:top-[3%] lg:right-[1%] xl:top-[3%] xl:right-[1%] items-center pr-[1%]">
+        <p className="sm:p-2 md:p-3 lg:p-4 xl:p-5 dark:bg-zinc-800/30">
           <a 
             href="https://www.amazon.com/dp/B09PHCFNH8?binding=paperback&qid=1700102595&sr=1-1&ref=dbs_dp_rwt_sb_pc_tpbk"
             target="_blank"
