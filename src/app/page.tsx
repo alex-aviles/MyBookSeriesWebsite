@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex flex-row h-screen w-screen justify-evenly">
+    <main className="flex flex-row h-screen w-screen justify-around">
       
-      <div className="absolute top-[3%] sm:right-[1%] md:top-[3%] md:right-[1%] lg:top-[3%] lg:right-[1%] xl:top-[3%] xl:right-[1%] items-center pr-[1%]">
+      <div className="absolute top-[3%] sm:right-[%] md:top-[3%] md:right-[1%] lg:top-[3%] lg:right-[1%] xl:top-[3%] xl:right-[1%] items-center pr-[1%]">
         <p className="sm:p-2 md:p-3 lg:p-4 xl:p-5 dark:bg-zinc-800/30">
           <a 
             href="https://www.amazon.com/dp/B09PHCFNH8?binding=paperback&qid=1700102595&sr=1-1&ref=dbs_dp_rwt_sb_pc_tpbk"
@@ -23,7 +23,7 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="absolute top-[3%] left-[1%] grid text-left w-[12%] grid-cols-1 grid-rows-4">
+      <div className="absolute lg:top-[3%] lg:left-[1%] lg:grid text-left w-1/6 grid-cols-1 grid-rows-4">
         <Link
           href="/about"
           className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
