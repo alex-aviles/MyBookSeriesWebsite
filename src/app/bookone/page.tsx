@@ -29,12 +29,11 @@ export default function BookOnePage() {
         he sets off on a hunt for the royal Seal of Amnesty that will grant him acceptance back home.
         </p>
       </div>
-      <br></br>
 
       <div className="hover:bg-blue-400/40 w-1/3 order-3">
         <Image
           src={bookOneCoverPage}
-          alt="Book One Cover"
+          alt="Cover for Book One: Genesis of Gleinpir"
         />
       </div>
       
