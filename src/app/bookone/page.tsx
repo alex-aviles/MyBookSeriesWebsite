@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bookOneCoverPage from '/public/bookonecover.png'
+import bookOneCoverPage from '../../public/bookonecover.png'
 
 export default function BookOnePage() {
 
