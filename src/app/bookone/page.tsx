@@ -1,5 +1,5 @@
 import Image from "next/image"
-import bookonecover from '../bookone/bookonecover.png'
+import bookonecover from '../../../assets/bookonecover.png'
 
 export default function BookOnePage() {
 
@@ -34,8 +34,8 @@ export default function BookOnePage() {
         <Image
           src={bookonecover}
           alt="Cover for Book One: Genesis of Gleinpir"
-          width={500}
-          height={500}
+          //width={500}
+          //height={500}
         />
       </div>
       
