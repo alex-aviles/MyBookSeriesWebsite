@@ -30,21 +30,26 @@ export default function BookOnePage() {
         </p>
       </div>
 
-      <div className="hover:bg-blue-400/40 w-1/3 order-3">
-        <Image
-
-          src={bookOneCover}
-          alt="Cover for Book One: Genesis of Gleipnir"
-          /*className="w-1/2"
-          src="https://m.media-amazon.com/images/I/41-OyfiZ03L._SY445_SX342_.jpg"
-          alt="Cover for Book One: Genesis of Gleinpir"
-          width={300}
-          height={0}
-          style={{
-            maxWidth: '100%',
-            height: 'auto',
-          }}*/
-        />
+      <div className="hover:bg-blue-400/40 w-1/3 order-3 flex flex-col">
+        <div className="hover:bg-blue-400/50 max-w-full mt-[10vw] ml-[6vw]">
+          <Image
+            src={bookOneCover}
+            alt="Cover for Book One: Genesis of Gleipnir"
+            style={{
+              maxWidth: '80%',
+              height: 'auto',
+            }}
+            /*className="w-1/2"
+            src="https://m.media-amazon.com/images/I/41-OyfiZ03L._SY445_SX342_.jpg"
+            alt="Cover for Book One: Genesis of Gleinpir"
+            width={300}
+            height={0}
+            style={{
+              maxWidth: '100%',
+              height: 'auto',
+            }}*/
+          />
+        </div>
       </div>
       
     </main>
