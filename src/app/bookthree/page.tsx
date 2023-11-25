@@ -21,7 +21,7 @@ export default function BookThreePage() {
           ---Summary---
         </p>
         <p className="text-lg max-w-prose text-center mb-[20%]">
-          {/* summary */}
+          coming soon
         </p>
       </div>
 

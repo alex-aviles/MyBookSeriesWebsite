@@ -19,7 +19,18 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={inter.className}>
-
+        <div className="absolute top-[3%] sm:right-[%] md:top-[3%] md:right-[1%] lg:top-[3%] lg:right-[1%] xl:top-[3%] xl:right-[1%] pr-[1%]">
+          <p className="sm:p-2 md:p-3 lg:p-4 xl:p-5 dark:bg-zinc-800/30">
+            <a 
+              href="https://www.amazon.com/dp/B09PHCFNH8?binding=paperback&qid=1700102595&sr=1-1&ref=dbs_dp_rwt_sb_pc_tpbk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Buy Now&nbsp; {/*use sticky headers for buy now buttons*/}
+            </a>
+          </p>
+        </div>
+        
         <div className="absolute lg:top-[3%] lg:left-[1%] lg:grid text-left w-1/6 grid-cols-1 grid-rows-4">
           <Link
             href="/about"

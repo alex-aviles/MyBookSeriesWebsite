@@ -21,12 +21,12 @@ export default function BookTwoPage() {
           ---Summary---
         </p>
         <p className="text-lg max-w-prose text-center mb-[20%]">
-          {/* summary */}
+          work in progress
         </p>
       </div>
 
       <div className="hover:bg-blue-400/40 w-1/3 order-3 flex flex-col">
-        
+
       </div>
       
     </main>
