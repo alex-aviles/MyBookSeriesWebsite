@@ -1,5 +1,5 @@
 import Image from "next/image"
-import bookOneCover from '../../../assets/bookonecover.png'
+import bookOneCover from '../assets/bookonecover.png'
 
 export default function BookOnePage() {
 
@@ -32,10 +32,18 @@ export default function BookOnePage() {
 
       <div className="hover:bg-blue-400/40 w-1/3 order-3">
         <Image
+
           src={bookOneCover}
+          alt="Cover for Book One: Genesis of Gleipnir"
+          /*className="w-1/2"
+          src="https://m.media-amazon.com/images/I/41-OyfiZ03L._SY445_SX342_.jpg"
           alt="Cover for Book One: Genesis of Gleinpir"
-          //width={500}
-          //height={500}
+          width={300}
+          height={0}
+          style={{
+            maxWidth: '100%',
+            height: 'auto',
+          }}*/
         />
       </div>
       
