@@ -4,13 +4,13 @@ import bookOneCover from '../assets/bookonecover.png'
 export default function BookOnePage() {
 
   return (
-    <main className="hover:bg-blue-400/20 flex flex-row justify-around h-screen max-w-screen">
+    <main className="flex flex-row justify-around h-screen max-w-screen">
       
-      <div className="hover:bg-blue-400/10 w-1/3 order-1">
+      <div className="w-1/3 order-1">
         
       </div>
 
-      <div className="hover:bg-blue-400/40 w-1/3 order-2">
+      <div className="w-1/3 order-2">
         <p className="text-[200%] font-bold text-center mt-[15%]">
           Book One:
         </p>
@@ -20,7 +20,7 @@ export default function BookOnePage() {
         <p className="text-lg max-w-prose text-center mt-[13%]">
           ---Summary---
         </p>
-        <p className="text-lg max-w-prose text-center mb-[20%]">
+        <p className="indent-8 text-lg max-w-prose text-left mt-[5%]">
           In the village of Canfis, Soren Gleipnir is a spurned boy 
           who found work in a putrid but loving place. He goes on nightly walks 
           around his hometown after work to ease his mind from the stresses his family&apos;s past placed on him. 
@@ -30,8 +30,8 @@ export default function BookOnePage() {
         </p>
       </div>
 
-      <div className="hover:bg-blue-400/40 w-1/3 order-3 flex flex-col">
-        <div className="hover:bg-blue-400/50 max-w-full mt-[10vw] ml-[6vw]">
+      <div className="w-1/3 order-3 flex flex-col">
+        <div className="max-w-full mt-[10vw] ml-[6vw]">
           <Image
             src={bookOneCover}
             alt="Cover for Book One: Genesis of Gleipnir"
