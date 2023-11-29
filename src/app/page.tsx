@@ -1,5 +1,5 @@
 import Image from "next/image"
-import mapImage from '../app/assets/Mieraud Map  5.jpg'
+import mapImage from '../app/assets/mieraudmap.jpg'
 
 export default function Home() {
   return (

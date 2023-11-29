@@ -113,6 +113,22 @@ export default function RootLayout({
               Maelstrom Upon Mieraud
             </p>
           </Link>
+
+          <Link
+            href="/map"
+            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            rel="noopener noreferrer"
+          >
+            <h2 className={`mb-[3%] text-[160%] font-semibold`}>
+              The Map{' '}
+              <span className="inline-block transition-transform group-hover:translate-x-[20%] motion-reduce:transform-none">
+                -&gt;
+              </span>
+            </h2>
+            <p className={`max-w-[90%] text-[90%] opacity-[50%]`}>
+              World Map of Mieraud
+            </p>
+          </Link>
         </div>
 
         {children}
