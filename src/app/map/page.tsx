@@ -10,14 +10,11 @@ export default function mapPage() {
         
       </div>
 
-      <div className="ml-[10%] order-2">
+      <div className="items-center order-2">
           <Image
+            className="w-[80%] h-auto"
             src={mapImage}
             alt="Map of the Continent of Mieraud"
-            style={{
-              maxWidth: '80%',
-              height: 'auto',
-            }}
           />
         </div>
       

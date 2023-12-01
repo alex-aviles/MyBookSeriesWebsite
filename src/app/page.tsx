@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <main className="flex flex-row h-screen w-screen justify-around">
 
-      <div className="w-fit h-fit mt-[2%] items-center text-center">
+      <div className="w-fit h-fit mt-[13%] items-center text-center">
         <h1 className="font-bold text-white text-[200%] sm:text-[200%] md:text-[300%] lg:text-[500%] xl:text-[700%] leading-tight ">
-          Chronicles{' '}of{' '}Mieraud
+          Chronicles{' '}<br></br>of{' '}Mieraud
         </h1>
-        <div className="w-fit h-fit mt-[-1%] ml-[23%]">
+        {/*<div className="w-fit h-fit mt-[-1%] ml-[23%]">
           <Image
             src={mapImage}
             alt="Map of the Continent of Mieraud"
@@ -18,7 +18,7 @@ export default function Home() {
               height: 'auto',
             }}
           />
-        </div>
+          </div>*/}
       </div>
 
     </main>
