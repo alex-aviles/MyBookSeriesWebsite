@@ -10,12 +10,16 @@ export default function mapPage() {
         
       </div>
 
-      <div className="items-center order-2">
+      <div className="order-2 flex flex-col">
+        <div className="max-w-full mt-[1vw] m-[4vw]">
           <Image
-            className="w-[80%] h-auto"
-            src={mapImage}
-            alt="Map of the Continent of Mieraud"
-          />
+              className="w-[80%] h-auto"
+              src={mapImage}
+              alt="Map of the Continent of Mieraud"
+              priority={true}
+              placeholder="blur"
+            />
+        </div>
         </div>
       
     </main>

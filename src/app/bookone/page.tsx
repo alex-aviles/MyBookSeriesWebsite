@@ -39,6 +39,8 @@ export default function BookOnePage() {
               maxWidth: '80%',
               height: 'auto',
             }}
+            priority={true}
+            placeholder="blur"
             /*className="w-1/2"
             src="https://m.media-amazon.com/images/I/41-OyfiZ03L._SY445_SX342_.jpg"
             alt="Cover for Book One: Genesis of Gleinpir"
