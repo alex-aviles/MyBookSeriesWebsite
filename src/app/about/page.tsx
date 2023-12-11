@@ -14,14 +14,14 @@ export default function aboutPage() {
         <p className="text-[200%] font-bold text-center mt-[15%]">
           About Me!
         </p>
-        <p className="text-[300%] font-bold text-center mt-[15%]">
+        {/*<p className="text-[300%] font-bold text-center mt-[15%]">
           Alexander Aviles
-        </p>
+  </p>*/}
         <p className="text-lg max-w-prose text-center mt-[13%]">
           Hello Everyone,
         </p>
         <p className="text-lg max-w-prose text-left indent-8 mt-[5%]">
-          I can&apos;t thank you enough for visiting my page. I hope you enjoy the 
+          My name is Alexander Aviles, and I can&apos;t thank you enough for visiting my page. I hope you enjoy the 
           website which I built myself and details the novels that make up the book series
           which I have written myself. Well what&apos;s written so far at least. I came up with
           the idea for the series over winter break my senior year of high school. Then, with the time

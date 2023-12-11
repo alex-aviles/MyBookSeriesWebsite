@@ -65,7 +65,7 @@ export default function MapPage() {
       <div className="w-1/3 order-1"></div>
 
       <div
-        className="order-2 flex flex-col"
+        className="order-2 flex flex-col ml-[2%]"
         style={{
           overflow: 'hidden',
           cursor: isDragging ? 'grabbing' : 'grab',
