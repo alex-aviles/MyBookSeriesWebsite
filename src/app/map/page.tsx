@@ -76,6 +76,8 @@ export default function MapPage() {
             className="w-[80%] h-auto"
             src={mapImage}
             alt="Map of the Continent of Mieraud"
+            priority={true}
+            placeholder="blur"
             style={{
               transform: `translate(${position.x}px, ${position.y}px) scale(${zoomLevel})`,
             }}
