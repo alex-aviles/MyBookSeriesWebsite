@@ -11,16 +11,16 @@ export default function BookOnePage() {
       </div>
 
       <div className="w-1/3 order-2">
-        <p className="text-[200%] font-bold max-w-prose text-center mt-[15%]">
+        <p className="max-w-full text-[200%] font-bold text-center mt-[15%]">
           Book One:
         </p>
-        <p className="text-[300%] font-bold max-w-prose text-center mt-[15%]">
+        <p className="max-w-full text-[300%] font-bold text-center mt-[15%]">
           Genesis of Gleipnir
         </p>
-        <p className="text-[100%] max-w-prose text-center mt-[13%]">
+        <p className="max-w-full text-[150%] text-center mt-[13%]">
           ---Summary---
         </p>
-        <p className="indent-8 text-[100%] max-w-prose text-left mt-[5%]">
+        <p className="max-w-full indent-8 text-[150%] text-center mt-[5%]">
           In the village of Canfis, Soren Gleipnir is a spurned boy 
           who found work in a putrid but loving place. He goes on nightly walks 
           around his hometown after work to ease his mind from the stresses his family&apos;s past placed on him. 
