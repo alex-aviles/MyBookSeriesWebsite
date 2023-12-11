@@ -11,10 +11,10 @@ export default function BookOnePage() {
       </div>
 
       <div className="w-1/3 order-2">
-        <p className="text-[200%] font-bold text-center mt-[15%]">
+        <p className="text-[200%] font-bold max-w-prose text-center mt-[15%]">
           Book One:
         </p>
-        <p className="text-[300%] font-bold text-center mt-[15%]">
+        <p className="text-[300%] font-bold max-w-prose text-center mt-[15%]">
           Genesis of Gleipnir
         </p>
         <p className="text-lg max-w-prose text-center mt-[13%]">
