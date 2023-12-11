@@ -29,7 +29,7 @@ export default function aboutPage() {
         </p>
         <p className="text-lg max-w-prose text-left indent-8 mt-[5%]">
             Eventually, I will finish writing the series. But for the time being, I hope you find interest enough to purchase
-            and enjoy my novel. If you know me personally, well then I just hope you&apos;re pleasantly surprised. 
+            and enjoy the first book!
         </p>
       </div>
 
