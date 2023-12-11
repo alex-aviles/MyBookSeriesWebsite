@@ -11,16 +11,16 @@ export default function BookThreePage() {
       </div>
 
       <div className="w-1/3 order-2">
-        <p className="text-[200%] font-bold text-center mt-[15%]">
+        <p className="max-w-full text-[200%] font-bold text-center mt-[15%]">
           Book Three:
         </p>
-        <p className="text-[300%] font-bold text-center mt-[15%]">
+        <p className="max-w-full text-[300%] font-bold text-center mt-[15%]">
           Maelstrom Upon Mieraud
         </p>
-        <p className="text-lg max-w-prose text-center mt-[13%]">
+        <p className="max-w-full text-[150%] text-center mt-[13%]">
           ---Summary---
         </p>
-        <p className="text-lg max-w-prose text-center mt-[5%]">
+        <p className="max-w-full indent-8 text-[150%] text-center mt-[5%]">
           coming soon
         </p>
       </div>
