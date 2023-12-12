@@ -52,22 +52,22 @@ export default function MobileLayout({
 
           {menuOpen && (
             <div className="mobile-nav">
-              <Link legacyBehavior href="/" passHref>
+              <Link legacyBehavior href="/mobileHome" passHref>
                 <a onClick={closeMenu}>Home</a>
               </Link>
-              <Link legacyBehavior href="/about" passHref>
+              <Link legacyBehavior href="/mobileAbout" passHref>
                 <a onClick={closeMenu}>About</a>
               </Link>
-              <Link legacyBehavior href="/map" passHref>
+              <Link legacyBehavior href="/mobileMap" passHref>
                 <a onClick={closeMenu}>Map</a>
               </Link>
-              <Link legacyBehavior href="/bookone" passHref>
+              <Link legacyBehavior href="/mobileBookOne" passHref>
                 <a onClick={closeMenu}>Book One</a>
               </Link>
-              <Link legacyBehavior href="/booktwo" passHref>
+              <Link legacyBehavior href="/mobileBookTwo" passHref>
                 <a onClick={closeMenu}>Book Two</a>
               </Link>
-              <Link legacyBehavior href="/bookthree" passHref>
+              <Link legacyBehavior href="/mobileBookThree" passHref>
                 <a onClick={closeMenu}>Book Three</a>
               </Link>
             </div>
@@ -82,7 +82,7 @@ export default function MobileLayout({
                 top: 12px;
                 left: 10px;
                 cursor: pointer;
-                font-size: 24px;
+                font-size: 40px;
                 z-index: 1000;
                 }
               
