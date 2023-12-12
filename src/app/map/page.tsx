@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import mapImage from '../assets/mieraudmap.jpg';
 import { useState } from 'react';
+import MapLayout from './layout'
 
 export default function MapPage() {
   const [zoomLevel, setZoomLevel] = useState(1);
@@ -53,6 +54,7 @@ export default function MapPage() {
   };
 
   return (
+
     <main
       className="flex flex-row justify-around h-screen max-w-screen"
       onWheel={handleWheel}
@@ -62,30 +64,29 @@ export default function MapPage() {
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="w-1/3 order-1"></div>
+        <div className="w-1/3 order-1"></div>
 
-      <div
-        className="order-2 flex flex-col ml-[2%]"
-        style={{
-          overflow: 'hidden',
-          cursor: isDragging ? 'grabbing' : 'grab',
-        }}
-      >
-        <div className="max-w-full mt-[1vw] m-[4vw]">
-          <Image
-            className="w-[80%] h-auto"
-            src={mapImage}
-            alt="Map of the Continent of Mieraud"
-            priority={true}
-            placeholder="blur"
-            style={{
-              transform: `translate(${position.x}px, ${position.y}px) scale(${zoomLevel})`,
-            }}
-            onMouseDown={handleMouseDown}
-          />
+        <div
+          className="order-2 flex flex-col ml-[2%]"
+          style={{
+            overflow: 'hidden',
+            cursor: isDragging ? 'grabbing' : 'grab',
+          }}
+        >
+          <div className="max-w-full mt-[1vw] m-[4vw]">
+            <Image
+              className="w-[80%] h-auto"
+              src={mapImage}
+              alt="Map of the Continent of Mieraud"
+              priority={true}
+              placeholder="blur"
+              style={{
+                transform: `translate(${position.x}px, ${position.y}px) scale(${zoomLevel})`,
+              }}
+              onMouseDown={handleMouseDown} />
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
   );
 }
 {/*import Image from 'next/image';

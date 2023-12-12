@@ -1,5 +1,11 @@
 import Image from "next/image"
 import mapImage from '../app/assets/mieraudmap.jpg'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Chronicles of Mieraud',
+  description: 'The Book Series',
+}
 
 export default function Home() {
   return (

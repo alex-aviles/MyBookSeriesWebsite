@@ -1,5 +1,11 @@
 import Image from "next/image"
 import bookOneCover from '../assets/bookonecover.png'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About Me',
+  description: 'Learn about the Author.',
+}
 
 export default function aboutPage() {
 

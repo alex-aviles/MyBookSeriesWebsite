@@ -1,5 +1,11 @@
 import Image from "next/image"
 import bookOneCover from '../assets/bookonecover.png'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Apostasy in Aporlan',
+  description: 'Book Two of the Series',
+}
 
 export default function BookTwoPage() {
 
