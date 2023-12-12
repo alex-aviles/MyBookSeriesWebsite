@@ -1,24 +1,4 @@
-'use client'
-import React, { ReactNode } from 'react';
-import { useMediaQuery } from 'react-responsive';
-import RootLayout from './rootLayout';
-import MobileLayout from './mobileLayout';
-
-interface LayoutProps {
-  children: ReactNode;
-}
-
-export default function Layout({ children }: LayoutProps) {
-  const isMobile = useMediaQuery({ maxWidth: 767 });
-
-  return isMobile ? (
-    <MobileLayout>{children}</MobileLayout>
-  ) : (
-    <RootLayout>{children}</RootLayout>
-  );
-}
-
-{/*import type { Metadata } from 'next'
+import type { Metadata } from 'next'
 import { EB_Garamond } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link';
@@ -155,4 +135,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-}*/}
+}
