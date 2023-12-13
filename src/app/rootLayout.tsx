@@ -20,7 +20,7 @@ export default function RootLayout({
 
       <body className={fontType.className}>
         <div className="absolute top-[3%] sm:right-[%] md:top-[3%] md:right-[1%] lg:top-[3%] lg:right-[1%] xl:top-[3%] xl:right-[1%] pr-[1%]">
-          <p className="sm:p-2 md:p-3 lg:p-4 xl:p-5 dark:bg-gray-500/25">
+          <p className="text-black text-[120%] sm:p-2 md:p-3 lg:p-4 xl:p-5 dark:bg-zinc-200">
             <a 
               href="https://www.amazon.com/dp/B09PHCFNH8?binding=paperback&qid=1700102595&sr=1-1&ref=dbs_dp_rwt_sb_pc_tpbk"
               target="_blank"
@@ -31,7 +31,7 @@ export default function RootLayout({
           </p>
         </div>
         
-        <div className="absolute lg:top-[3%] lg:left-[1%] lg:grid text-left w-[12%] grid-cols-1 grid-rows-5">
+        <div className="absolute lg:top-[3%] lg:left-[1%] lg:grid text-left text-black w-[12%] grid-cols-1 grid-rows-5">
           
           <Link
             href="/"
@@ -44,7 +44,7 @@ export default function RootLayout({
                 &gt;
               </span>
             </h2>
-            <p className={`max-w-[90%] text-[90%] opacity-[50%]`}>
+            <p className={`max-w-[90%] text-[90%] opacity-[100%]`}>
               Back to Home Page
             </p>
           </Link>
@@ -60,7 +60,7 @@ export default function RootLayout({
                 &gt;
               </span>
             </h2>
-            <p className={`max-w-[90%] text-[90%] opacity-[50%]`}>
+            <p className={`max-w-[90%] text-[90%] opacity-[100%]`}>
               Learn about me as the author of this series.
             </p>
           </Link>
@@ -76,7 +76,7 @@ export default function RootLayout({
                 &gt;
               </span>
             </h2>
-            <p className={`max-w-[90%] text-[90%] opacity-[50%]`}>
+            <p className={`max-w-[90%] text-[90%] opacity-[100%]`}>
               World Map of Mieraud
             </p>
           </Link>
@@ -92,7 +92,7 @@ export default function RootLayout({
                 &gt;
               </span>
             </h2>
-            <p className={`max-w-[90%] text-[90%] opacity-[50%]`}>
+            <p className={`max-w-[90%] text-[90%] opacity-[100%]`}>
               Genesis of Gleipnir
             </p>
           </Link>
@@ -108,7 +108,7 @@ export default function RootLayout({
                 &gt;
               </span>
             </h2>
-            <p className={`max-w-[90%] text-[90%] opacity-[50%]`}>
+            <p className={`max-w-[90%] text-[90%] opacity-[100%]`}>
               Apostasy In Aporlan
             </p>
           </Link>
@@ -124,7 +124,7 @@ export default function RootLayout({
                 &gt;
               </span>
             </h2>
-            <p className={`max-w-[90%] text-[90%] opacity-[50%]`}>
+            <p className={`max-w-[90%] text-[90%] opacity-[100%]`}>
               Maelstrom Upon Mieraud
             </p>
           </Link>

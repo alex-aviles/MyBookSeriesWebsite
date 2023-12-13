@@ -50,7 +50,7 @@ export default function MobileLayout({
         <div>
           {/* "Buy Now" button */}
           <div className="absolute top-[2%] right-[4%]">
-            <p className="dark:bg-gray-500/25 p-2">
+            <p className="dark:bg-zinc-200 text-black p-2">
               <a
                 href="https://www.amazon.com/dp/B09PHCFNH8?binding=paperback&qid=1700102595&sr=1-1&ref=dbs_dp_rwt_sb_pc_tpbk"
                 target="_blank"

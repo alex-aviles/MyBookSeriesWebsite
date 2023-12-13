@@ -10,10 +10,10 @@ export default function mobileHome() {
     <main className="flex flex-row h-screen w-screen justify-around">
 
       <div className="w-fit h-fit mt-[30%] items-center text-center">
-        <h1 className="font-bold text-white text-[300%] leading-tight">
+        <h1 className="font-bold text-[300%] text-black leading-tight">
           Chronicles{' '}<br></br>of<br></br>{' '}Mieraud
         </h1>
-        <h2 className="m-[30%] text-white text-[120%] leading-tight">
+        <h2 className="m-[30%] text-[120%] text-black leading-tight">
             <i>By: Alexander Aviles</i>
         </h2>
       </div>
