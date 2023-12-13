@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={fontType.className}>
         <Analytics />
         <div className="absolute top-[3%] sm:right-[%] md:top-[3%] md:right-[1%] lg:top-[3%] lg:right-[1%] xl:top-[3%] xl:right-[1%] pr-[1%]">
-          <p className="text-black text-[120%] sm:p-2 md:p-3 lg:p-4 xl:p-5 dark:bg-zinc-200">
+          <p className="text-black text-[120%] sm:p-2 md:p-3 lg:p-4 xl:p-5 bg-zinc-200">
             <a 
               href="https://www.amazon.com/dp/B09PHCFNH8?binding=paperback&qid=1700102595&sr=1-1&ref=dbs_dp_rwt_sb_pc_tpbk"
               target="_blank"
@@ -37,7 +37,7 @@ export default function RootLayout({
           
           <Link
             href="/"
-            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
             rel="noopener noreferrer"
           >
             <h2 className={`mb-[3%] text-[160%] font-semibold`}>
@@ -53,7 +53,7 @@ export default function RootLayout({
           
           <Link
             href="/about"
-            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
             rel="noopener noreferrer"
           >
             <h2 className={`mb-[3%] text-[160%] font-semibold`}>
@@ -69,7 +69,7 @@ export default function RootLayout({
           
           <Link
             href="/map"
-            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
             rel="noopener noreferrer"
           >
             <h2 className={`mb-[3%] text-[160%] font-semibold`}>
@@ -85,7 +85,7 @@ export default function RootLayout({
 
           <Link
             href="/bookone"
-            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
             rel="noopener noreferrer"
           >
             <h2 className={`mb-[3%] text-[160%] font-semibold`}>
@@ -101,7 +101,7 @@ export default function RootLayout({
     
           <Link
             href="/booktwo"
-            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
             rel="noopener noreferrer"
           >
             <h2 className={`mb-[3%] text-[160%] font-semibold`}>
@@ -117,7 +117,7 @@ export default function RootLayout({
     
           <Link
             href="/bookthree"
-            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            className="group rounded-lg border border-transparent px-[2%] py-[4%] hover:bg-gray-100 hover:border-neutral-700 hover:bg-neutral-800/30"
             rel="noopener noreferrer"
           >
             <h2 className={`mb-[3%] text-[160%] font-semibold`}>
