@@ -7,7 +7,7 @@ export default function mobileMapPage() {
     <main className="flex h-screen max-w-screen">
 
       <div className="flex flex-col">
-        <div className="max-w-full mt-[50vw] m-[1vw]">
+        <div className="max-w-full mt-[30vw] m-[1vw]">
           <Image
               className="w-[100%] h-auto"
               src={mapImage}

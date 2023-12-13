@@ -3,6 +3,8 @@ import { EB_Garamond } from 'next/font/google'
 import './globals.css'
 import React, { ReactNode, useState } from 'react';
 import Link from 'next/link';
+import {useEffect} from 'react';
+import { usePathname, useRouter } from 'next/navigation';
 
 const fontType = EB_Garamond({ subsets: ['latin'] })
 
@@ -17,6 +19,17 @@ export default function MobileLayout({
   children: React.ReactNode 
 }) {
 
+  const router = useRouter();
+  const pathName = usePathname();
+
+  useEffect(() => {
+    if (pathName == '/') {
+      router.push('/mobileHome');
+      router.refresh;
+      router.push('/mobileHome');
+    }
+  }, [pathName, router]);
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -26,6 +39,8 @@ export default function MobileLayout({
   const closeMenu = () => {
     setMenuOpen(false);
   };
+
+ 
 
   return (
 
@@ -73,7 +88,9 @@ export default function MobileLayout({
             </div>
           )}
 
-          <div className="main-content">{children}</div>
+          <div className="main-content">
+            {children}
+          </div>
 
           <style jsx>
             {`
