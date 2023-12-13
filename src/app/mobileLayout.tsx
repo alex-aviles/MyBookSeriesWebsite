@@ -5,6 +5,7 @@ import React, { ReactNode, useState } from 'react';
 import Link from 'next/link';
 import {useEffect} from 'react';
 import { usePathname, useRouter } from 'next/navigation';
+import { Analytics } from '@vercel/analytics/react';
 
 const fontType = EB_Garamond({ subsets: ['latin'] })
 
@@ -46,7 +47,7 @@ export default function MobileLayout({
 
     <html lang="en">
       <body className={fontType.className}>
-
+        <Analytics />
         <div>
           {/* "Buy Now" button */}
           <div className="absolute top-[2%] right-[4%]">
