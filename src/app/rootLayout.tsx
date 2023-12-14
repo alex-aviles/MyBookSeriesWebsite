@@ -3,6 +3,7 @@ import { EB_Garamond } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const fontType = EB_Garamond({ subsets: ['latin'] })
 
@@ -20,7 +21,9 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={fontType.className}>
+
         <Analytics />
+        <SpeedInsights />
         <div className="absolute top-[3%] sm:right-[%] md:top-[3%] md:right-[1%] lg:top-[3%] lg:right-[1%] xl:top-[3%] xl:right-[1%] pr-[1%]">
           <p className="text-black text-[120%] sm:p-2 md:p-3 lg:p-4 xl:p-5 bg-zinc-200">
             <a 
