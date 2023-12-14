@@ -14,8 +14,8 @@ export default function mobileBookTwoPage() {
   
         <div className="max-w-full items-center order-1 m-6">
           <p className="text-[199%] text-black font-bold text-center mt-[15%]">Apostasy in Aporlan</p>
-          <p className="text-[85%] text-black text-center mt-[13%]">---Summary---</p>
-          <p className="text-[85%] text-black text-center mt-[5%]">work in progress</p>
+          <p className="text-[100%] text-black text-center mt-[13%]">---Summary---</p>
+          <p className="text-[100%] text-black text-center mt-[5%]">work in progress</p>
         </div>
   
        

@@ -19,9 +19,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <body className={fontType.className}>
-
         <Analytics />
         <SpeedInsights />
         <div className="absolute top-[3%] sm:right-[%] md:top-[3%] md:right-[1%] lg:top-[3%] lg:right-[1%] xl:top-[3%] xl:right-[1%] pr-[1%]">

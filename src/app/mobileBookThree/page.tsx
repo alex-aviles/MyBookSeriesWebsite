@@ -14,8 +14,8 @@ export default function mobileBookThreePage() {
   
         <div className="max-w-full items-center order-1 m-6">
           <p className="text-[199%] text-black font-bold text-center mt-[15%]">Maelstrom upon Mieraud</p>
-          <p className="text-[85%] text-black text-center mt-[13%]">---Summary---</p>
-          <p className="text-[85%] text-black text-center mt-[5%]">coming soon</p>
+          <p className="text-[100%] text-black text-center mt-[13%]">---Summary---</p>
+          <p className="text-[100%] text-black text-center mt-[5%]">coming soon</p>
         </div>
   
        
